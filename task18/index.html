@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Queries for Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 20px;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .query-section {
+      background: #ffffff;
+      border: 1px solid #dcdcdc;
+      border-left: 5px solid #2980b9;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .query-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #34495e;
+    }
+    pre {
+      background-color: #ecf0f1;
+      padding: 10px;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-family: 'Courier New', monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SQL: Creating Database and Table</h1>
+
+  <div class="query-section">
+    <div class="query-title">1. Create a Database named "library"</div>
+    <pre>CREATE DATABASE library;</pre>
+	<img src="https://img.icons8.com/flat-round/48/filled-trash.png" alt="Delete Table Icon">
+  </div>
+
+  <div class="query-section">
+    <div class="query-title">2. Delete the "library" Database</div>
+    <pre>DROP DATABASE library;</pre>
+	<img src="https://img.icons8.com/flat-round/48/filled-trash.png" alt="Delete Table Icon">
+  </div>
+
+  <div class="query-section">
+    <div class="query-title">3. Create a Table "book_records"</div>
+    <pre>
+CREATE TABLE book_records (
+  Book_Library_No INT PRIMARY KEY,
+  Book_Name VARCHAR(100),
+  Author_Name VARCHAR(100),
+  Book_Edition VARCHAR(50),
+  Price DECIMAL(10, 2)
+);
+    </pre>
+	<img src="https://img.icons8.com/flat-round/48/filled-trash.png" alt="Delete Table Icon">
+  </div>
+
+  <div class="query-section">
+    <div class="query-title">4. Delete the "book_records" Table</div>
+    <pre>DROP TABLE book_records;</pre>
+	<img src="https://img.icons8.com/flat-round/48/filled-trash.png" alt="Delete Table Icon">
+  </div>
+
+</body>
+</html>
+      
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
